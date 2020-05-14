@@ -15,7 +15,6 @@ import math
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import accuracy_score
 import pandas as pd
-from sklearn.naive_bayes import GaussianNB
 import pickle
 
 import warnings 
