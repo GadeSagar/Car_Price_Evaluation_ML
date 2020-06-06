@@ -1,22 +1,16 @@
 import tkinter as tk
 from tkinter import ttk, LEFT, END
 from PIL import Image, ImageTk
-
 from tkinter import messagebox as ms
 import os
-
 import pandas as pd
-
 import csv
 import random
 import math
-
-
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import accuracy_score
 import pandas as pd
 import pickle
-
 import warnings 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
