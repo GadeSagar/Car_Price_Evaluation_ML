@@ -29,11 +29,8 @@ root.title("CAR Classification Analysis")
 #####For background Image
 image2 =Image.open('car1.jpg')
 image2 =image2.resize((w,h), Image.ANTIALIAS)
-
 background_image=ImageTk.PhotoImage(image2)
-
 background_label = tk.Label(root, image=background_image)
-
 background_label.image = background_image
 
 background_label.place(x=100, y=0) #, relwidth=1, relheight=1)
