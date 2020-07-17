@@ -13,14 +13,10 @@ import pandas as pd
 import pickle
 import warnings 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-
-
 ##############################################+=============================================================
 root = tk.Tk()
 root.configure(background="seashell2")
 #root.geometry("1300x700")
-
-
 w, h = root.winfo_screenwidth(), root.winfo_screenheight()
 root.geometry("%dx%d+0+0" % (w, h))
 root.title("CAR Classification Analysis")
