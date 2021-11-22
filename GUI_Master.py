@@ -11,6 +11,8 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import accuracy_score
 import pandas as pd
 import pickle
+
+
 #######################################################################################################
 import warnings 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
@@ -27,6 +29,7 @@ root.title("CAR Classification Analysis")
 ##############################################+=============================================================
 #####For background Image
 image2 =Image.open('car1.jpg')
+
 image2 =image2.resize((w,h), Image.ANTIALIAS)
 background_image=ImageTk.PhotoImage(image2)
 background_label = tk.Label(root, image=background_image)
