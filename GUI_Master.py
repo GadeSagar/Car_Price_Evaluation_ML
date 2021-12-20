@@ -11,8 +11,6 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.metrics import accuracy_score
 import pandas as pd
 import pickle
-
-
 #######################################################################################################
 import warnings 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
